@@ -27,6 +27,7 @@ DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
+THEME="themes/bcfg2"
 
 DISPLAY_PAGES_ON_MENU=False
 MENUITEMS = [('Home','/'),('Download','/pages/download/'),('Docs','http://docs.bcfg2.org')]

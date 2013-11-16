@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>{% block windowtitle %}{{ SITENAME }}{% endblock %}</title>
+	<meta name="description" content="">
+	<meta name="author" content="{{ AUTHOR }}">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- Styles -->
+	<link href="{{ SITEURL }}/theme/css/bootstrap.min.css" rel="stylesheet">
+	<link href="{{ SITEURL }}/theme/css/bootstrap-theme.min.css" rel="stylesheet">
+	<link href="{{ SITEURL }}/theme/css/bcfg2.css" rel="stylesheet">
+	
+
+	
+
+    <!-- Feeds -->
+    {% if FEED_ALL_ATOM %}
+    <link href="{{ FEED_DOMAIN }}/{{ FEED_ALL_ATOM }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} Atom Feed" />
+    {% endif %}
+    {% if FEED_ALL_RSS %}
+    <link href="{{ FEED_DOMAIN }}/{{ FEED_ALL_RSS }}" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} RSS Feed" />
+    {% endif %}
+
+	{% include "analytics.html" %}
+	{% include "disqus.html" %}
+</head>
+<body>
+	{% include "facebook.html" %}
+	{% include "github.html" %}
+	<div class="container">
+		<div class="navbar navbar-bcfg2 navbar-fixed-top" role="navigation">
+       		<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+           		 	<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a href="{{ SITEURL}}/"><img height="50" src="{{ SITEURL}}/theme/images/bcfg2_logo.png"/></a>
+     		</div>
+        	<div class="navbar-collapse collapse">
+          		<ul class="nav navbar-nav">
+
+					{% for title, link in MENUITEMS %}
+						<li><a href="{{ link }}">{{ title }}</a></li>
+					{% endfor %}
+					{% if DISPLAY_PAGES_ON_MENU %}
+					{% for page in PAGES %}
+							<li><a href="{{ SITEURL }}/{{ page.url }}">{{ page.title }}</a></li>
+						{% endfor %}
+					{% endif %}
+				</ul>
+          		<ul class="nav navbar-nav navbar-right">
+					{% for cat, null in categories %}
+						<li {% if cat == category %}class="active"{% endif %}><a href="{{ SITEURL }}/{{ cat.url }}">{{ cat }}</a></li>
+					{% endfor %}
+	          </ul>
+    	    </div><!--/.nav-collapse -->
+      	</div>	
+	  	<div class="content">
+			{% block indextitle %}<div class="page-header"><h1>{% block title %} {{ self.windowtitle() }} {% endblock %}</h1></div>{% endblock %}
+			{% block content %}{% endblock %}
+		<footer>
+		</footer>
+	  </div>
+
+	</div>
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="{{ SITE_URL}}/theme/js/bootstrap.min.js"></script>
+</body>
+</html>
