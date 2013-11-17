@@ -30,7 +30,7 @@ DEFAULT_PAGINATION = 10
 THEME="themes/bcfg2"
 
 DISPLAY_PAGES_ON_MENU=False
-MENUITEMS = [('Home','/'),('Download','/pages/download/'),('Docs','http://docs.bcfg2.org')]
+MENUITEMS = [('Download','/pages/download/'),('Docs','http://docs.bcfg2.org')]
 
 PAGE_URL = 'pages/{slug}/'
 PAGE_SAVE_AS = 'pages/{slug}/index.html'
