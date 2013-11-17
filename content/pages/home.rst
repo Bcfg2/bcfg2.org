@@ -4,6 +4,12 @@ Home
 :date: 2013-07-01
 :url:  
 :save_as: index.html
+:no_title: true
+
+.. image:: /theme/images/bcfg2_logo.png
+   :alt: Hello World
+   :scale: 200 %
+   :align: center
 
 Bcfg2 helps system administrators produce a consistent, reproducible, and
 verifiable description of their environment, and offers visualization and

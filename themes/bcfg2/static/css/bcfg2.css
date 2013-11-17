@@ -6,6 +6,12 @@ h1 {
 	color: #11303d;
 }
 
+img.align-center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 .navbar-bcfg2 .navbar-brand {
   color: #777777;
 }
