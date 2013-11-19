@@ -60,12 +60,6 @@ Older Releases
 | 1.0.1   | `bcfg2-1.0.1.tar.gz`_ | `bcfg2-1.0.1.tar.gz.gpg`_ | 01/21/10     | 6fbf36acc5cc58b2504a25c25cad3921 |
 +---------+-----------------------+---------------------------+--------------+----------------------------------+
 
-.. _`bcfg2-1.2.4.tar.gz`: ftp://ftp.mcs.anl.gov/pub/bcfg/bcfg2-1.2.4.tar.gz
-.. _`bcfg2-1.2.4.tar.gz.gpg`: ftp://ftp.mcs.anl.gov/pub/bcfg/bcfg2-1.2.4.tar.gz.gpg
-.. _`bcfg2-1.1.3.tar.gz`: ftp://ftp.mcs.anl.gov/pub/bcfg/bcfg2-1.1.3.tar.gz
-.. _`bcfg2-1.1.3.tar.gz.gpg`: ftp://ftp.mcs.anl.gov/pub/bcfg/bcfg2-1.1.3.tar.gz.gpg
-.. _`bcfg2-1.0.1.tar.gz`: ftp://ftp.mcs.anl.gov/pub/bcfg/bcfg2-1.0.1.tar.gz
-.. _`bcfg2-1.0.1.tar.gz.gpg`: ftp://ftp.mcs.anl.gov/pub/bcfg/bcfg2-1.0.1.tar.gz.gpg
 
 Binary Packages
 ===============
@@ -74,13 +68,19 @@ Binary packages for a number of architectures and distributions are
 described on the `Precompiled Packages`_ page.
 
 
-.. _Prerequisites: https://trac.mcs.anl.gov/projects/bcfg2/wiki/Prereqs
-.. _7F7D197E: http://pgpkeys.mit.edu:11371/pks/lookup?op=get&search=0x75BF2C177F7D197E
-.. _A88FFF4B: http://pgp.mit.edu:11371/pks/lookup?op=get&search=0x80B8492FA88FFF4B
-.. _bcfg2-1.3.3.tar.gz: ftp://ftp.mcs.anl.gov/pub/bcfg/bcfg2-1.3.3.tar.gz
-.. _bcfg2-1.3.3.tar.gz.gpg: ftp://ftp.mcs.anl.gov/pub/bcfg/bcfg2-1.3.3.tar.gz.gpg
-.. _ReleaseAnnouncement/1.3.3: https://trac.mcs.anl.gov/projects/bcfg2/wiki/ReleaseAnnouncement/1.3.3
-.. _bcfg2-1.3.0rc2.tar.gz: ftp://ftp.mcs.anl.gov/pub/bcfg/bcfg2-1.3.0rc2.tar.gz
-.. _bcfg2-1.3.0rc2.tar.gz.gpg: ftp://ftp.mcs.anl.gov/pub/bcfg/bcfg2-1.3.0rc2.tar.gz.gpg
+.. _`Prerequisites`: https://trac.mcs.anl.gov/projects/bcfg2/wiki/Prereqs
+.. _`7F7D197E`: http://pgpkeys.mit.edu:11371/pks/lookup?op=get&search=0x75BF2C177F7D197E
+.. _`A88FFF4B`: http://pgp.mit.edu:11371/pks/lookup?op=get&search=0x80B8492FA88FFF4B
+.. _`ReleaseAnnouncement/1.3.3`: https://trac.mcs.anl.gov/projects/bcfg2/wiki/ReleaseAnnouncement/1.3.3
 .. _`FTP server`: ftp://ftp.mcs.anl.gov/pub/bcfg/
 .. _`Precompiled Packages`: https://trac.mcs.anl.gov/projects/bcfg2/wiki/PrecompiledPackages
+.. _`bcfg2-1.3.3.tar.gz`: ftp://ftp.mcs.anl.gov/pub/bcfg/bcfg2-1.3.3.tar.gz
+.. _`bcfg2-1.3.3.tar.gz.gpg`: ftp://ftp.mcs.anl.gov/pub/bcfg/bcfg2-1.3.3.tar.gz.gpg
+.. _`bcfg2-1.3.0rc2.tar.gz`: ftp://ftp.mcs.anl.gov/pub/bcfg/bcfg2-1.3.0rc2.tar.gz
+.. _`bcfg2-1.3.0rc2.tar.gz.gpg`: ftp://ftp.mcs.anl.gov/pub/bcfg/bcfg2-1.3.0rc2.tar.gz.gpg
+.. _`bcfg2-1.2.4.tar.gz`: ftp://ftp.mcs.anl.gov/pub/bcfg/bcfg2-1.2.4.tar.gz
+.. _`bcfg2-1.2.4.tar.gz.gpg`: ftp://ftp.mcs.anl.gov/pub/bcfg/bcfg2-1.2.4.tar.gz.gpg
+.. _`bcfg2-1.1.3.tar.gz`: ftp://ftp.mcs.anl.gov/pub/bcfg/bcfg2-1.1.3.tar.gz
+.. _`bcfg2-1.1.3.tar.gz.gpg`: ftp://ftp.mcs.anl.gov/pub/bcfg/bcfg2-1.1.3.tar.gz.gpg
+.. _`bcfg2-1.0.1.tar.gz`: ftp://ftp.mcs.anl.gov/pub/bcfg/bcfg2-1.0.1.tar.gz
+.. _`bcfg2-1.0.1.tar.gz.gpg`: ftp://ftp.mcs.anl.gov/pub/bcfg/bcfg2-1.0.1.tar.gz.gpg
