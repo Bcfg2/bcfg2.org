@@ -78,7 +78,7 @@ ftp://ftp.mcs.anl.gov/pub/bcfg/archive.
 .. _`7F7D197E`: http://pgpkeys.mit.edu:11371/pks/lookup?op=get&search=0x75BF2C177F7D197E
 .. _`A88FFF4B`: http://pgp.mit.edu:11371/pks/lookup?op=get&search=0x80B8492FA88FFF4B
 .. _`ReleaseAnnouncement/1.3.3`: https://trac.mcs.anl.gov/projects/bcfg2/wiki/ReleaseAnnouncement/1.3.3
-.. _`Precompiled Packages`: https://trac.mcs.anl.gov/projects/bcfg2/wiki/PrecompiledPackages
+.. _`Precompiled Packages`: {filename}/pages/precompiled-packages.rst
 .. _`bcfg2-1.3.3.tar.gz`: ftp://ftp.mcs.anl.gov/pub/bcfg/bcfg2-1.3.3.tar.gz
 .. _`bcfg2-1.3.3.tar.gz.gpg`: ftp://ftp.mcs.anl.gov/pub/bcfg/bcfg2-1.3.3.tar.gz.gpg
 .. _`bcfg2-1.3.0rc2.tar.gz`: ftp://ftp.mcs.anl.gov/pub/bcfg/bcfg2-1.3.0rc2.tar.gz
