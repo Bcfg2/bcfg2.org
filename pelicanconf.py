@@ -39,3 +39,5 @@ MENUITEMS = [
 
 PAGE_URL = 'pages/{slug}/'
 PAGE_SAVE_AS = 'pages/{slug}/index.html'
+
+GITHUB_URL = 'https://github.com/Bcfg2/bcfg2'
