@@ -67,12 +67,17 @@ Binary Packages
 Binary packages for a number of architectures and distributions are
 described on the `Precompiled Packages`_ page.
 
+Other
+=====
+
+An archive of old releases can be found at
+ftp://ftp.mcs.anl.gov/pub/bcfg/archive.
+
 
 .. _`Prerequisites`: https://trac.mcs.anl.gov/projects/bcfg2/wiki/Prereqs
 .. _`7F7D197E`: http://pgpkeys.mit.edu:11371/pks/lookup?op=get&search=0x75BF2C177F7D197E
 .. _`A88FFF4B`: http://pgp.mit.edu:11371/pks/lookup?op=get&search=0x80B8492FA88FFF4B
 .. _`ReleaseAnnouncement/1.3.3`: https://trac.mcs.anl.gov/projects/bcfg2/wiki/ReleaseAnnouncement/1.3.3
-.. _`FTP server`: ftp://ftp.mcs.anl.gov/pub/bcfg/
 .. _`Precompiled Packages`: https://trac.mcs.anl.gov/projects/bcfg2/wiki/PrecompiledPackages
 .. _`bcfg2-1.3.3.tar.gz`: ftp://ftp.mcs.anl.gov/pub/bcfg/bcfg2-1.3.3.tar.gz
 .. _`bcfg2-1.3.3.tar.gz.gpg`: ftp://ftp.mcs.anl.gov/pub/bcfg/bcfg2-1.3.3.tar.gz.gpg
