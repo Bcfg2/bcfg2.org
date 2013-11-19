@@ -1,0 +1,89 @@
+===========
+Bcfg2 1.3.3
+===========
+
+:url: releases/1.3.3
+:save_as: releases/1.3.3/index.html
+
+We are happy to announce the release of Bcfg2 1.3.3. It is available
+for download at:
+
+ ftp://ftp.mcs.anl.gov/pub/bcfg
+
+This release fixes a great number of bugs in 1.3.2, but it also comes
+with many fun and exciting new features. Please read the release notes
+thoroughly.
+
+The following user-facing change is included:
+
+ * The when attribute of Action tags is now honored even with timing
+   set to "pre" or "both".
+
+The following is a non-exhaustive list of new features and bug fixes:
+
+* New AWSTags plugin sets groups and supplies data from AWS tag data:
+  http://docs.bcfg2.org/server/plugins/connectors/awstags.html
+* Completely rewritten (and deduplicated) spec file for building RPMs
+* Completely rewritten bcfg2-crypt, which adds some features to allow
+  decrypting Cfg files and encrypting/decrypting Properties files without
+  specifying passphrases on the command line.
+* Multiprocessing core now actually works
+* Handle high-latency reporting database connections better
+* Timeout incomplete XML-RPC calls correctly and avoid stray threads.
+* Ensure that XIncluded Bundler and Properties files are monitored
+  for changes
+
+* SSH key generation generation fixes:
+
+  * More complete way to specify authorized_keys options
+  * Fixed setting category specificity for authorized_keys
+  * Properly generate public keys from private keys
+
+* Connector plugins can now create new groups and set options on them
+* Properly remove ACLs from managed files
+* POSIX improvements to help running as non-root (e.g., bcfg2-info builddir)
+
+* Fixes to clients.xml writing:
+
+  * Reread clients.xml on every write. This could reduce performance if
+    clients.xml is frequently updated, but also resolves a race condition
+    where a new client may fail to declare its version or assert its
+    profile.
+  * Reduce number of clients.xml writes due to gratuitous profile
+    assertions.
+
+* Chkconfig bugs fixed
+
+  * List all services correctly
+  * Let chkconfig assign default runlevels according to the init script
+
+* Fixed return value from bcfg2-test
+* Use fam_blocking option in all commands that start a server (bcfg2-info,
+  bcfg2-test, etc.)
+* Reduce noise from encryption failures with decrypt=lax
+* POSIXUsers driver works better with older usermod
+
+* bcfg2-yum-helper improvements:
+
+  * Much much better (and far less error-prone) yum caching
+  * Added timeout to fix hanging yum problem
+
+* bcfg2-info fixes:
+
+  * Fixed automatch behavior
+  * Added expirecache command to expire metadata cache
+
+* Fixed inconsistent initial metadata group ordering and searching,
+  which could result in inconsistent category suppression
+* SELinux properly looks up the default context in all cases
+* Several performance improvements, particularly on startup
+* Better packages caching
+* Various logging improvements
+* Various error handling improvements
+* Various Debian/Ubuntu build fixes
+* Various bcfg2-admin viz fixes and improvements
+* Various UTF-8/unicode fixes
+
+Special thanks to all of our contributors for 1.3.3: Alexander Sulfrian,
+Arto Jantunen, Duncan Hutty, Igor Widlinski, Jason Kincl, John Morris,
+Jonathan Billings, Michael Fenn, Stéphane Graber, and Tim Laszlo
