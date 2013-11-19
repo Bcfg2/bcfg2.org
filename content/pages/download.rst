@@ -1,6 +1,6 @@
+========
 Download
-########
-
+========
 
 
 Prerequisites
@@ -11,7 +11,8 @@ Be sure the check the Prerequisites_ page.
 Source Downloads
 ================
 
-All tarballs are signed with GPG key 7F7D197E_ or A88FFF4B_. You can verify your download by importing the key and running::
+All tarballs are signed with GPG key 7F7D197E_ or A88FFF4B_. You can
+verify your download by importing the key and running::
 
     $ gpg --recv-keys 0x75bf2c177f7d197e 0x80B8492FA88FFF4B
     $ gpg --verify bcfg2-<version>.tar.gz.gpg bcfg2-<version>.tar.gz
@@ -54,7 +55,8 @@ Older releases can be found on `FTP server`_
 Binary Packages
 ===============
 
-Binary packages for a number of architectures and distributions are described on the `Precompiled Packages`_ page. 
+Binary packages for a number of architectures and distributions are
+described on the `Precompiled Packages`_ page.
 
 
 .. _Prerequisites: https://trac.mcs.anl.gov/projects/bcfg2/wiki/Prereqs

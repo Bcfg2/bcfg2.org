@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = u'solj'
 SITENAME = u'Bcfg2'
-SITEURL = ''
+SITEURL = 'http://bcfg2.org'
 
 TIMEZONE = 'Europe/London'
 
@@ -30,7 +30,12 @@ DEFAULT_PAGINATION = 10
 THEME="themes/bcfg2"
 
 DISPLAY_PAGES_ON_MENU=False
-MENUITEMS = [('Download','/pages/download/'),('Docs','http://docs.bcfg2.org')]
+MENUITEMS = [
+    ('Download', '/pages/download/'),
+    ('Documentation', 'http://docs.bcfg2.org'),
+    ('Install', 'http://docs.bcfg2.org/installation/index.html'),
+    ('Contribute', '/pages/contribute/')
+]
 
 PAGE_URL = 'pages/{slug}/'
 PAGE_SAVE_AS = 'pages/{slug}/index.html'
