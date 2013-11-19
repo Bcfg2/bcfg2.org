@@ -31,13 +31,13 @@ THEME="themes/bcfg2"
 
 DISPLAY_PAGES_ON_MENU=False
 MENUITEMS = [
-    ('Download', '/pages/download/'),
+    ('Download', '/download/'),
     ('Documentation', 'http://docs.bcfg2.org'),
     ('Install', 'http://docs.bcfg2.org/installation/index.html'),
-    ('Contribute', '/pages/contribute/')
+    ('Contribute', '/contribute/')
 ]
 
-PAGE_URL = 'pages/{slug}/'
-PAGE_SAVE_AS = 'pages/{slug}/index.html'
+PAGE_URL = '{slug}/'
+PAGE_SAVE_AS = '{slug}/index.html'
 
 GITHUB_URL = 'https://github.com/Bcfg2/bcfg2'
