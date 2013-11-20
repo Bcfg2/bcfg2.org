@@ -74,7 +74,7 @@ An archive of old releases can be found at
 ftp://ftp.mcs.anl.gov/pub/bcfg/archive.
 
 
-.. _`Prerequisites`: https://trac.mcs.anl.gov/projects/bcfg2/wiki/Prereqs
+.. _`Prerequisites`: http://docs.bcfg2.org/installation/prerequisites.html
 .. _`7F7D197E`: http://pgpkeys.mit.edu:11371/pks/lookup?op=get&search=0x75BF2C177F7D197E
 .. _`A88FFF4B`: http://pgp.mit.edu:11371/pks/lookup?op=get&search=0x80B8492FA88FFF4B
 .. _`1.3.3 Release Notes`: {filename}/pages/releases/1.3.3.rst
