@@ -17,21 +17,21 @@ verify your download by importing the key and running::
     $ gpg --recv-keys 0x75bf2c177f7d197e 0x80B8492FA88FFF4B
     $ gpg --verify bcfg2-<version>.tar.gz.gpg bcfg2-<version>.tar.gz
 
-Current stable release (1.3.3)
+Current stable release (1.3.4)
 ------------------------------
 
 :Source:
-	bcfg2-1.3.3.tar.gz_
+	bcfg2-1.3.4.tar.gz_
 :GPG Key:
-	bcfg2-1.3.3.tar.gz.gpg_
+	bcfg2-1.3.4.tar.gz.gpg_
 :Release Date:
-	11/08/2013
+	02/25/2014
 :Release Notes:
-	`1.3.3 Release Notes`_
+	`1.3.4 Release Notes`_
 :md5sum:
-	`1ac3d3a4c5b134a3f23b3da63cfe2a1b`
+	`788c26bdb3d45a9c31757476d6758d9e`
 :md6sum:
-	`9aaec2e783ca66655c358db211bf78ddbc06fc13b0720e8ece5352c9a2d0a0c4`
+	`6cf8fa70127d85502a7d5b07ef9172871d175b844b93150a1c08948c9f04f965`
 
 Current development release (1.3.0rc2)
 --------------------------------------
@@ -77,10 +77,10 @@ ftp://ftp.mcs.anl.gov/pub/bcfg/archive.
 .. _`Prerequisites`: http://docs.bcfg2.org/installation/prerequisites.html
 .. _`7F7D197E`: http://pgpkeys.mit.edu:11371/pks/lookup?op=get&search=0x75BF2C177F7D197E
 .. _`A88FFF4B`: http://pgp.mit.edu:11371/pks/lookup?op=get&search=0x80B8492FA88FFF4B
-.. _`1.3.3 Release Notes`: {filename}/pages/releases/1.3.3.rst
+.. _`1.3.4 Release Notes`: http://docs.bcfg2.org/releases/index.html#releases-1-3-4
 .. _`Precompiled Packages`: {filename}/pages/precompiled-packages.rst
-.. _`bcfg2-1.3.3.tar.gz`: ftp://ftp.mcs.anl.gov/pub/bcfg/bcfg2-1.3.3.tar.gz
-.. _`bcfg2-1.3.3.tar.gz.gpg`: ftp://ftp.mcs.anl.gov/pub/bcfg/bcfg2-1.3.3.tar.gz.gpg
+.. _`bcfg2-1.3.4.tar.gz`: ftp://ftp.mcs.anl.gov/pub/bcfg/bcfg2-1.3.4.tar.gz
+.. _`bcfg2-1.3.4.tar.gz.gpg`: ftp://ftp.mcs.anl.gov/pub/bcfg/bcfg2-1.3.4.tar.gz.gpg
 .. _`bcfg2-1.3.0rc2.tar.gz`: ftp://ftp.mcs.anl.gov/pub/bcfg/bcfg2-1.3.0rc2.tar.gz
 .. _`bcfg2-1.3.0rc2.tar.gz.gpg`: ftp://ftp.mcs.anl.gov/pub/bcfg/bcfg2-1.3.0rc2.tar.gz.gpg
 .. _`bcfg2-1.2.4.tar.gz`: ftp://ftp.mcs.anl.gov/pub/bcfg/bcfg2-1.2.4.tar.gz
