@@ -33,19 +33,19 @@ Current stable release (1.3.4)
 :md6sum:
 	`6cf8fa70127d85502a7d5b07ef9172871d175b844b93150a1c08948c9f04f965`
 
-Current development release (1.3.0rc2)
---------------------------------------
+Current development release (1.4.0pre1)
+---------------------------------------
 
 :Source:
-	bcfg2-1.3.0rc2.tar.gz_
+	bcfg2-1.4.0pre1.tar.gz_
 :GPG Key:
-	bcfg2-1.3.0rc2.tar.gz.gpg_
+	bcfg2-1.4.0pre1.tar.gz.gpg_
 :Release Date:
-	01/29/2013
+	06/16/2014
 :md5sum:
-	`6bb429fbbbd16ffab090a1138f0a0626`
+	`74af863e987b6cb4b10a234c2601af79`
 :md6sum:
-	`c6c3008ab13db7dfa69c0f1655712966f296d5656a336b106c123ad85843dcd8`
+	`36383ef3282257617c9a1ebd3e3e3e59478bb9d858bd0ee1af9fa313ca37fe07`
 
 Older Releases
 --------------
@@ -81,8 +81,8 @@ ftp://ftp.mcs.anl.gov/pub/bcfg/archive.
 .. _`Precompiled Packages`: {filename}/pages/precompiled-packages.rst
 .. _`bcfg2-1.3.4.tar.gz`: ftp://ftp.mcs.anl.gov/pub/bcfg/bcfg2-1.3.4.tar.gz
 .. _`bcfg2-1.3.4.tar.gz.gpg`: ftp://ftp.mcs.anl.gov/pub/bcfg/bcfg2-1.3.4.tar.gz.gpg
-.. _`bcfg2-1.3.0rc2.tar.gz`: ftp://ftp.mcs.anl.gov/pub/bcfg/bcfg2-1.3.0rc2.tar.gz
-.. _`bcfg2-1.3.0rc2.tar.gz.gpg`: ftp://ftp.mcs.anl.gov/pub/bcfg/bcfg2-1.3.0rc2.tar.gz.gpg
+.. _`bcfg2-1.4.0pre1.tar.gz`: ftp://ftp.mcs.anl.gov/pub/bcfg/bcfg2-1.4.0pre1.tar.gz
+.. _`bcfg2-1.4.0pre1.tar.gz.gpg`: ftp://ftp.mcs.anl.gov/pub/bcfg/bcfg2-1.4.0pre1.tar.gz.gpg
 .. _`bcfg2-1.2.4.tar.gz`: ftp://ftp.mcs.anl.gov/pub/bcfg/bcfg2-1.2.4.tar.gz
 .. _`bcfg2-1.2.4.tar.gz.gpg`: ftp://ftp.mcs.anl.gov/pub/bcfg/bcfg2-1.2.4.tar.gz.gpg
 .. _`bcfg2-1.1.3.tar.gz`: ftp://ftp.mcs.anl.gov/pub/bcfg/bcfg2-1.1.3.tar.gz
