@@ -41,11 +41,11 @@ Current development release (1.4.0pre2)
 :GPG Key:
 	bcfg2-1.4.0pre2.tar.gz.gpg_
 :Release Date:
-	06/16/2014
+	11/13/2015
 :md5sum:
-	`74af863e987b6cb4b10a234c2601af79`
+	`d00a5503824b6e7be807f6ccf689c6ee`
 :md6sum:
-	`36383ef3282257617c9a1ebd3e3e3e59478bb9d858bd0ee1af9fa313ca37fe07`
+	`5036a0193f043be674af892c5cf0e315dd0f2054fb612d4ef1e85fab6232b017`
 
 Older Releases
 --------------
