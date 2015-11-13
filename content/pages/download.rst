@@ -33,13 +33,13 @@ Current stable release (1.3.6)
 :md6sum:
 	`7eb368b53215ddf32f0e17293a73ac41b8a02efc7429e3fae6047fece3fe6b90`
 
-Current development release (1.4.0pre1)
+Current development release (1.4.0pre2)
 ---------------------------------------
 
 :Source:
-	bcfg2-1.4.0pre1.tar.gz_
+	bcfg2-1.4.0pre2.tar.gz_
 :GPG Key:
-	bcfg2-1.4.0pre1.tar.gz.gpg_
+	bcfg2-1.4.0pre2.tar.gz.gpg_
 :Release Date:
 	06/16/2014
 :md5sum:
@@ -81,8 +81,8 @@ ftp://ftp.mcs.anl.gov/pub/bcfg/archive.
 .. _`Precompiled Packages`: {filename}/pages/precompiled-packages.rst
 .. _`bcfg2-stable-tarball`: ftp://ftp.mcs.anl.gov/pub/bcfg/bcfg2-1.3.6.tar.gz
 .. _`bcfg2-stable-tarball-gpg`: ftp://ftp.mcs.anl.gov/pub/bcfg/bcfg2-1.3.6.tar.gz.gpg
-.. _`bcfg2-1.4.0pre1.tar.gz`: ftp://ftp.mcs.anl.gov/pub/bcfg/bcfg2-1.4.0pre1.tar.gz
-.. _`bcfg2-1.4.0pre1.tar.gz.gpg`: ftp://ftp.mcs.anl.gov/pub/bcfg/bcfg2-1.4.0pre1.tar.gz.gpg
+.. _`bcfg2-1.4.0pre2.tar.gz`: https://github.com/Bcfg2/bcfg2/archive/v1.4.0pre2.tar.gz
+.. _`bcfg2-1.4.0pre2.tar.gz.gpg`: {attach}/downloads/bcfg2-1.4.0pre2.tar.gz.gpg
 .. _`bcfg2-1.2.4.tar.gz`: ftp://ftp.mcs.anl.gov/pub/bcfg/bcfg2-1.2.4.tar.gz
 .. _`bcfg2-1.2.4.tar.gz.gpg`: ftp://ftp.mcs.anl.gov/pub/bcfg/bcfg2-1.2.4.tar.gz.gpg
 .. _`bcfg2-1.1.3.tar.gz`: ftp://ftp.mcs.anl.gov/pub/bcfg/bcfg2-1.1.3.tar.gz

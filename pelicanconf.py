@@ -42,7 +42,9 @@ PAGE_SAVE_AS = '{slug}/index.html'
 
 GITHUB_URL = 'https://github.com/Bcfg2/bcfg2'
 
-STATIC_PATHS = ['extra/favicon.ico']
+READERS = {'html': None}
+STATIC_PATHS = ['downloads', 'extra/favicon.ico']
 EXTRA_PATH_METADATA = {
-    'extra/favicon.ico': {'path': 'favicon.ico'}
+    'extra/favicon.ico': {
+        'path': 'favicon.ico'}
 }
